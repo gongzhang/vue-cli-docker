@@ -4,8 +4,9 @@ This Docker image [gongzhang/vue-cli](https://hub.docker.com/r/gongzhang/vue-cli
 
 - Node: 10.15
 - npm: 6.4
-- yarn: 1.13
+- yarn: 1.16
 - Vue CLI: 3.8
+- Python: 2.7
 
 You can use this image to develop Vue CLI projects without installing Node environment on your machine.
 

@@ -1,6 +1,6 @@
 FROM node:10-alpine
 
-RUN apk add --update --no-cache curl python2 && \
+RUN apk add --update --no-cache git curl python2 && \
     curl --compressed -o- -L https://yarnpkg.com/install.sh | sh && \
     cd /usr/local/bin && \
     rm yarn && \

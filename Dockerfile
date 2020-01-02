@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:12-alpine
 
 RUN apk add --update --no-cache git curl python2 && \
     curl --compressed -o- -L https://yarnpkg.com/install.sh | sh && \
